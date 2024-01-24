@@ -1,0 +1,22 @@
+.botones{
+    padding: 20px;
+}
+.boton{
+    border: 10px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(77, 186, 248);
+    border-radius: 5px;
+}
+#texto{
+    border-style:solid;
+}
+.boton:hover{
+    transition: .5s;
+    background-color: rgb(9, 3, 189);
+}
+body{
+    background-color: rgb(183, 214, 250);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
