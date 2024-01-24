@@ -12,12 +12,13 @@
         <h1>bienvenido al encriptador</h1>
         <input type="text" id="texto">
         <div class="botones">
-            <input type="button" class="boton" value="enviar" onclick="encriptarTexto()">
-            <input type="button" class="boton" value="descartar">
+            <input type="button" class="boton" value="encriptar" onclick="encriptarTexto()">
+            <input type="button" class="boton" value="desencriptar" onclick="desencriptarTexto()">
+            <input type="button" class="boton" value="descartar" onclick="vaciarCajaDeTexto()">
         </div>
         <div class="encri">
-            <p>este es tu texto encriptado:</p>
-            <h2 id="textoEncriptado"></h2>
+            <p>Resultado:</p>
+            <h2 id="resultado"></h2>
         </div>
     </div>
 </body>
